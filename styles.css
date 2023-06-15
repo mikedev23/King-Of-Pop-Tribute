@@ -7,7 +7,7 @@ body {
   background-image: linear-gradient(to bottom right, #ff9f00, #ff006e);
   background-size: fill;
   background-repeat: no-repeat;
-  background: url("https://imgs.smoothradio.com/images/314046?crop=16_9&width=660&relax=1&format=webp&signature=9FDICvtTSvF6hY9Fexs7q1nTUHc=");
+  background: url(https://imgs.smoothradio.com/images/314046?crop=16_9&width=660&relax=1&format=webp&signature=9FDICvtTSvF6hY9Fexs7q1nTUHc=);
 }
 
 #main {
@@ -66,7 +66,7 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  transition: background-color .3s ease;
+  transition: background-color 0.3s ease;
 }
 
 #tribute-link:hover {
