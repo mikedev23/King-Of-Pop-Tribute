@@ -1,0 +1,104 @@
+body {
+  background: url("https://imgs.smoothradio.com/images/314046?crop=16_9&width=660&relax=1&format=webp&signature=9FDICvtTSvF6hY9Fexs7q1nTUHc=");
+  background-color: #f7f7f7;
+  background-image: linear-gradient(to bottom right, #ff9f00, #ff006e);
+  background-repeat: no-repeat;
+  background-size: fill;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-color: #392186;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+#title {
+  color: #f1be32;
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#img-div {
+  margin-bottom: 20px;
+}
+
+#mj-image {
+  border: 5px solid #f1be32;
+  display: block;
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#img-caption {
+  color: #d872fa;
+  font-family: 'Palatino', cursive;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+#tribute-info {
+  color: #f0e4cf;
+  font-family: 'Courier', cursive;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#tribute-link {
+  background-color: #f1be32;
+  border-radius: 5px;
+  color: #090ddc;
+  display: inline-block;
+  font-weight: bold;
+  margin: 2rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color .3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #d88e20;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#video-container {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+#video-container iframe {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  #main {
+    max-width: 1000px;
+  }
+
+  #title {
+    font-size: 36px;
+  }
+}
