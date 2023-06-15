@@ -1,30 +1,31 @@
 body {
-  background: url("https://imgs.smoothradio.com/images/314046?crop=16_9&width=660&relax=1&format=webp&signature=9FDICvtTSvF6hY9Fexs7q1nTUHc=");
-  background-color: #f7f7f7;
-  background-image: linear-gradient(to bottom right, #ff9f00, #ff006e);
-  background-repeat: no-repeat;
-  background-size: fill;
-  color: #333;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  background-image: linear-gradient(to bottom right, #ff9f00, #ff006e);
+  background-size: fill;
+  background-repeat: no-repeat;
+  background: url("https://imgs.smoothradio.com/images/314046?crop=16_9&width=660&relax=1&format=webp&signature=9FDICvtTSvF6hY9Fexs7q1nTUHc=");
 }
 
 #main {
-  background-color: #392186;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
   max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
   text-align: center;
+  background-color: #392186;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #title {
-  color: #f1be32;
-  font-family: 'Lobster', cursive;
   font-size: 36px;
   font-weight: bold;
+  color: #333;
   margin-bottom: 20px;
+  color: #f1be32;
+  font-family: 'Lobster', cursive;
 }
 
 #img-div {
@@ -32,38 +33,39 @@ body {
 }
 
 #mj-image {
-  border: 5px solid #f1be32;
   display: block;
+  width: 100%;
   max-height: 400px;
   object-fit: cover;
-  width: 100%;
+  border: 5px solid #f1be32;
 }
 
 #img-caption {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
   color: #d872fa;
   font-family: 'Palatino', cursive;
-  font-size: 14px;
-  font-style: italic;
-  margin-top: 5px;
 }
 
 #tribute-info {
-  color: #f0e4cf;
-  font-family: 'Courier', cursive;
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: #f0e4cf;
+  font-family: 'Courier', cursive;
 }
 
 #tribute-link {
-  background-color: #f1be32;
-  border-radius: 5px;
-  color: #090ddc;
   display: inline-block;
-  font-weight: bold;
-  margin: 2rem;
+  background-color: #f1be32;
+  color: #090ddc;
   padding: 10px 20px;
+  margin: 2rem;
   text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
   transition: background-color .3s ease;
 }
 
@@ -73,24 +75,24 @@ body {
 
 #image {
   display: block;
-  margin: 0 auto;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 #video-container {
+  position: relative;
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
 }
 
 #video-container iframe {
-  height: 100%;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) {
