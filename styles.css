@@ -32,6 +32,12 @@ body {
   margin-top: 10px;
 }
 
+h2 {
+  color: #f1be32;
+  font-family: 'Lobster', cursive;
+  display: inline;
+}
+
 #img-div {
   margin-bottom: 20px;
 }
