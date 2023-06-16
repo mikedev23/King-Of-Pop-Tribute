@@ -57,14 +57,14 @@ body {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
-  color: #f0e4cf;
+  color: #fcfcfc;
   font-family: 'Courier', cursive;
 }
 
 #tribute-link {
   display: inline-block;
-  background-color: #f1be32;
-  color: purple;
+  background-color: blue;
+  color: #ffffffdd;
   padding: 10px 20px;
   margin: 2rem;
   text-decoration: none;
@@ -74,7 +74,7 @@ body {
 }
 
 #tribute-link:hover {
-  background-color: #d88e20;
+  background-color: purple;
 }
 
 #image {
