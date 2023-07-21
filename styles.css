@@ -106,6 +106,7 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
   color: #fcfcfc;
+  padding-bottom: -2rem;
   /* margin-bottom: -1rem; */
   text-align: center;
 }
