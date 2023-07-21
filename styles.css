@@ -79,6 +79,14 @@ h2 {
   background-color: purple;
 }
 
+#my-michael-jackson-story {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #fcfcfc;
+  font-family: 'Courier', cursive;
+}
+
 #image {
   display: block;
   max-width: 100%;
